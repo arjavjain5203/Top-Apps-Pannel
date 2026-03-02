@@ -1,0 +1,14 @@
+{
+  "name": "app-icons-taskbar",
+  "type": "module",
+  "scripts": {
+    "lint": "eslint 'src/**/*.js' --fix",
+    "lint:ci": "eslint 'src/**/*.js'"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.3.0",
+    "eslint-plugin-jsdoc": "^48.2.6",
+    "eslint": "^9.3.0",
+    "globals": "^15.6.0"
+  }
+}

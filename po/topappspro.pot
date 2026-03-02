@@ -1,0 +1,731 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the App Icons Taskbar package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: App Icons Taskbar\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-09-21 13:10-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/appIcon.js:330
+msgid "Show All Apps"
+msgstr ""
+
+#: src/settings/aboutPage.js:28
+msgid "About"
+msgstr ""
+
+#: src/settings/aboutPage.js:33 src/settings/donatePage.js:17
+msgid "App Icons Taskbar"
+msgstr ""
+
+#: src/settings/aboutPage.js:34
+msgid "Show running apps and favorites on the main panel"
+msgstr ""
+
+#. TRANSLATORS: 'PROJECT_NAME' Version
+#: src/settings/aboutPage.js:79
+#, javascript-format
+msgid "%s Version"
+msgstr ""
+
+#. TRANSLATORS: 'PROJECT_NAME' - Release Notes
+#: src/settings/aboutPage.js:88
+#, javascript-format
+msgid "%s - Release Notes"
+msgstr ""
+
+#: src/settings/aboutPage.js:90
+msgid "What's New"
+msgstr ""
+
+#: src/settings/aboutPage.js:140
+msgid "Message Tray Update Notification"
+msgstr ""
+
+#: src/settings/aboutPage.js:141
+#, javascript-format
+msgid "Show a notification when %s receives an update."
+msgstr ""
+
+#: src/settings/aboutPage.js:149
+msgid "Git Commit"
+msgstr ""
+
+#: src/settings/aboutPage.js:159
+msgid "GNOME Version"
+msgstr ""
+
+#: src/settings/aboutPage.js:168
+msgid "OS Name"
+msgstr ""
+
+#: src/settings/aboutPage.js:181
+msgid "Windowing System"
+msgstr ""
+
+#. TRANSLATORS: 'PROJECT_NAME' on GitLab
+#: src/settings/aboutPage.js:192
+#, javascript-format
+msgid "%s on GitLab"
+msgstr ""
+
+#: src/settings/aboutPage.js:195
+msgid "Report an Issue"
+msgstr ""
+
+#. TRANSLATORS: 'PROJECT_NAME' Settings
+#: src/settings/aboutPage.js:205
+#, javascript-format
+msgid "%s Settings"
+msgstr ""
+
+#: src/settings/aboutPage.js:208
+msgid "Load"
+msgstr ""
+
+#: src/settings/aboutPage.js:213
+msgid "Load Settings"
+msgstr ""
+
+#: src/settings/aboutPage.js:238
+msgid "Save"
+msgstr ""
+
+#: src/settings/aboutPage.js:243
+msgid "Save Settings"
+msgstr ""
+
+#: src/settings/aboutPage.js:265 src/settings/aboutPage.js:266
+msgid "Legal"
+msgstr ""
+
+#: src/settings/aboutPage.js:272
+msgid "This program comes with absolutely no warranty."
+msgstr ""
+
+#: src/settings/aboutPage.js:274
+msgid "GNU General Public License, version 2 or later"
+msgstr ""
+
+#. TRANSLATORS: this is the program license url; the string contains the name of the license as link text.
+#: src/settings/aboutPage.js:274
+#, javascript-format
+msgid "See the <a href=\"%s\">%s</a> for details."
+msgstr ""
+
+#: src/settings/actionsPage.js:11
+msgid "Actions"
+msgstr ""
+
+#: src/settings/actionsPage.js:18
+msgid "Click Actions"
+msgstr ""
+
+#: src/settings/actionsPage.js:23
+msgid "Toggle / Cycle"
+msgstr ""
+
+#: src/settings/actionsPage.js:24
+msgid "Toggle / Cycle + Minimize"
+msgstr ""
+
+#: src/settings/actionsPage.js:25
+msgid "Toggle / Preview"
+msgstr ""
+
+#: src/settings/actionsPage.js:26
+msgid "Cycle"
+msgstr ""
+
+#: src/settings/actionsPage.js:27 src/settings/actionsPage.js:163
+msgid "Raise"
+msgstr ""
+
+#: src/settings/actionsPage.js:28
+msgid "Minimize"
+msgstr ""
+
+#: src/settings/actionsPage.js:29
+msgid "Quit"
+msgstr ""
+
+#: src/settings/actionsPage.js:30
+msgid "Launch New Instance"
+msgstr ""
+
+#: src/settings/actionsPage.js:31
+msgid "Raise Here"
+msgstr ""
+
+#: src/settings/actionsPage.js:38
+msgid "Left Click"
+msgstr ""
+
+#: src/settings/actionsPage.js:53
+msgid "Middle Click"
+msgstr ""
+
+#: src/settings/actionsPage.js:68
+msgid "Shift + Middle Click"
+msgstr ""
+
+#: src/settings/actionsPage.js:78
+msgid "Scroll Actions"
+msgstr ""
+
+#: src/settings/actionsPage.js:83
+msgid "Cycle Windows"
+msgstr ""
+
+#: src/settings/actionsPage.js:84
+msgid "No Action"
+msgstr ""
+
+#: src/settings/actionsPage.js:86
+msgid "Scroll Action"
+msgstr ""
+
+#: src/settings/actionsPage.js:96
+msgid "Hover Actions"
+msgstr ""
+
+#: src/settings/actionsPage.js:104
+msgid "Tool-Tips"
+msgstr ""
+
+#: src/settings/actionsPage.js:126 src/settings/actionsPage.js:158
+msgid "Window Previews"
+msgstr ""
+
+#: src/settings/actionsPage.js:145
+msgid "Window Preview Options"
+msgstr ""
+
+#: src/settings/actionsPage.js:164
+msgid "Raise/Minimize"
+msgstr ""
+
+#: src/settings/actionsPage.js:166
+msgid "Click Action"
+msgstr ""
+
+#: src/settings/actionsPage.js:189
+msgid "Show Window Previews Delay"
+msgstr ""
+
+#: src/settings/actionsPage.js:190
+msgid "Time in ms to show the window preview"
+msgstr ""
+
+#: src/settings/actionsPage.js:210
+msgid "Hide Window Previews Delay"
+msgstr ""
+
+#: src/settings/actionsPage.js:211
+msgid "Time in ms to hide the window preview"
+msgstr ""
+
+#: src/settings/actionsPage.js:218
+msgid "Window Preview Style"
+msgstr ""
+
+#: src/settings/actionsPage.js:223
+msgid "Enable Grid Layout"
+msgstr ""
+
+#: src/settings/actionsPage.js:224
+msgid "Display window previews in a grid layout"
+msgstr ""
+
+#: src/settings/actionsPage.js:248
+msgid "Grid Columns"
+msgstr ""
+
+#: src/settings/actionsPage.js:268
+msgid "Switch Window Preview Delay"
+msgstr ""
+
+#: src/settings/actionsPage.js:269
+msgid "Time in ms to switch to a new window preview"
+msgstr ""
+
+#: src/settings/actionsPage.js:289
+msgid "Scaling Factor"
+msgstr ""
+
+#: src/settings/actionsPage.js:309
+msgid "Title Font Size"
+msgstr ""
+
+#: src/settings/actionsPage.js:329
+msgid "App Icon Size"
+msgstr ""
+
+#: src/settings/actionsPage.js:349
+msgid "Button Size"
+msgstr ""
+
+#: src/settings/actionsPage.js:350 src/settings/actionsPage.js:371
+#: src/settings/actionsPage.js:392
+msgid "Close/Minimize Buttons"
+msgstr ""
+
+#: src/settings/actionsPage.js:370
+msgid "Button Icon Size"
+msgstr ""
+
+#: src/settings/actionsPage.js:391
+msgid "Button Spacing"
+msgstr ""
+
+#: src/settings/actionsPage.js:403
+msgid "Show Minimize Button"
+msgstr ""
+
+#: src/settings/actionsPage.js:413 src/settings/actionsPage.js:421
+msgid "Window Peeking"
+msgstr ""
+
+#: src/settings/actionsPage.js:422
+msgid "Hovering a window preview will focus desired window"
+msgstr ""
+
+#: src/settings/actionsPage.js:446
+msgid "Window Peeking Delay"
+msgstr ""
+
+#: src/settings/actionsPage.js:447
+msgid "Time in ms to trigger window peek"
+msgstr ""
+
+#: src/settings/actionsPage.js:467
+msgid "Window Peeking Opacity"
+msgstr ""
+
+#: src/settings/actionsPage.js:468
+msgid "Opacity of non-focused windows during a window peek"
+msgstr ""
+
+#: src/settings/donatePage.js:12 src/updateNotifier.js:85
+msgid "Donate"
+msgstr ""
+
+#: src/settings/donatePage.js:22
+#, javascript-format
+msgid "Help Support %s"
+msgstr ""
+
+#: src/settings/donatePage.js:23 src/updateNotifier.js:73
+#, javascript-format
+msgid ""
+"Thank you for using %s! If you enjoy it and would like to help support its "
+"continued development, please consider making a donation."
+msgstr ""
+
+#: src/settings/donatePage.js:27
+msgid "Donate via PayPal"
+msgstr ""
+
+#: src/settings/donatePage.js:30
+msgid "Donate via Buy Me a Coffee"
+msgstr ""
+
+#: src/settings/donatePage.js:42
+#, javascript-format
+msgid ""
+"A huge thank you to everyone who has supported %s! Your support helps keep "
+"%s going. It is truly appreciated!"
+msgstr ""
+
+#: src/settings/generalPage.js:16
+msgid "Settings"
+msgstr ""
+
+#: src/settings/generalPage.js:24
+msgid "General"
+msgstr ""
+
+#: src/settings/generalPage.js:33
+msgid "Hide Dash in Overview"
+msgstr ""
+
+#: src/settings/generalPage.js:43
+msgid "App Icons Taskbar Behavior"
+msgstr ""
+
+#: src/settings/generalPage.js:48 src/settings/generalPage.js:122
+#: src/settings/panelPage.js:156 src/settings/panelPage.js:175
+msgid "Left"
+msgstr ""
+
+#: src/settings/generalPage.js:49 src/settings/panelPage.js:176
+msgid "Center"
+msgstr ""
+
+#: src/settings/generalPage.js:50 src/settings/generalPage.js:123
+#: src/settings/panelPage.js:157 src/settings/panelPage.js:177
+msgid "Right"
+msgstr ""
+
+#: src/settings/generalPage.js:52
+msgid "App Icons Position in Panel"
+msgstr ""
+
+#: src/settings/generalPage.js:75 src/settings/panelPage.js:202
+msgid "Position Offset"
+msgstr ""
+
+#: src/settings/generalPage.js:76
+msgid "Offset the App Icons position within the panel box."
+msgstr ""
+
+#: src/settings/generalPage.js:96
+msgid "Taskbar Spacing"
+msgstr ""
+
+#: src/settings/generalPage.js:97
+msgid "The spacing between the App Icons on the taskbar."
+msgstr ""
+
+#: src/settings/generalPage.js:132
+msgid "Enable \"Show All Apps\" Button"
+msgstr ""
+
+#: src/settings/generalPage.js:147
+msgid "Show Favorite Apps"
+msgstr ""
+
+#: src/settings/generalPage.js:162
+msgid "Show Favorites on All Monitors"
+msgstr ""
+
+#: src/settings/generalPage.js:172
+msgid "Show Running Apps"
+msgstr ""
+
+#: src/settings/generalPage.js:186
+msgid "Isolate Workspaces"
+msgstr ""
+
+#: src/settings/generalPage.js:200
+msgid "Isolate Monitors"
+msgstr ""
+
+#: src/settings/generalPage.js:211
+msgid "App Icons"
+msgstr ""
+
+#: src/settings/generalPage.js:229
+msgid "Icon Size"
+msgstr ""
+
+#: src/settings/generalPage.js:249
+msgid "App Icon Horizontal Padding"
+msgstr ""
+
+#: src/settings/generalPage.js:269
+msgid "Icon Desaturate Factor"
+msgstr ""
+
+#: src/settings/generalPage.js:276
+msgid "Regular"
+msgstr ""
+
+#: src/settings/generalPage.js:277
+msgid "Symbolic"
+msgstr ""
+
+#: src/settings/generalPage.js:279
+msgid "Icon Style"
+msgstr ""
+
+#: src/settings/generalPage.js:280
+msgid "Icon themes may not have a symbolic icon for every app"
+msgstr ""
+
+#: src/settings/generalPage.js:294
+msgid "Dance Urgent App Icons"
+msgstr ""
+
+#: src/settings/generalPage.js:304
+msgid "App Icon Indicators"
+msgstr ""
+
+#: src/settings/generalPage.js:309
+msgid "Indicator"
+msgstr ""
+
+#: src/settings/generalPage.js:310
+msgid "Multi-Dashes"
+msgstr ""
+
+#: src/settings/generalPage.js:312
+msgid "Multi-Window Indicator Style"
+msgstr ""
+
+#: src/settings/generalPage.js:322 src/settings/panelPage.js:52
+msgid "Top"
+msgstr ""
+
+#: src/settings/generalPage.js:323 src/settings/panelPage.js:53
+msgid "Bottom"
+msgstr ""
+
+#: src/settings/generalPage.js:325
+msgid "Indicator Location"
+msgstr ""
+
+#: src/settings/generalPage.js:339
+msgid "Use System Accent Colors"
+msgstr ""
+
+#: src/settings/generalPage.js:364
+msgid "Running Indicator Color"
+msgstr ""
+
+#: src/settings/generalPage.js:384
+msgid "Focused Indicator Color"
+msgstr ""
+
+#: src/settings/generalPage.js:392
+msgid "App Icon Badges"
+msgstr ""
+
+#: src/settings/generalPage.js:401
+msgid "Notification Badges Count"
+msgstr ""
+
+#: src/settings/generalPage.js:402
+msgid "Adds a badge counter to the App Icon based on GNOME shell notifications"
+msgstr ""
+
+#: src/settings/generalPage.js:416
+msgid "Always Show Notification Badges"
+msgstr ""
+
+#: src/settings/generalPage.js:417
+msgid "Bypass \"Do Not Disturb\" mode"
+msgstr ""
+
+#: src/settings/generalPage.js:431
+msgid "Unity Badges Count"
+msgstr ""
+
+#: src/settings/generalPage.js:432 src/settings/generalPage.js:447
+msgid "Requires Unity API"
+msgstr ""
+
+#: src/settings/generalPage.js:446
+msgid "Unity Progress Bars"
+msgstr ""
+
+#: src/settings/panelPage.js:14 src/settings/panelPage.js:22
+msgid "Panel"
+msgstr ""
+
+#: src/settings/panelPage.js:38
+msgid "Panel Intellihide"
+msgstr ""
+
+#: src/settings/panelPage.js:55
+msgid "Panel Location"
+msgstr ""
+
+#: src/settings/panelPage.js:68
+msgid "Show Panels on All Monitors"
+msgstr ""
+
+#: src/settings/panelPage.js:112
+msgid "Panel Height"
+msgstr ""
+
+#: src/settings/panelPage.js:129
+msgid "Transparent Panel in Overview"
+msgstr ""
+
+#: src/settings/panelPage.js:143
+msgid "Show Activities Button"
+msgstr ""
+
+#: src/settings/panelPage.js:155
+msgid "Off"
+msgstr ""
+
+#: src/settings/panelPage.js:159
+msgid "Show Weather near Clock"
+msgstr ""
+
+#: src/settings/panelPage.js:170
+msgid "Customize Panel Clock"
+msgstr ""
+
+#: src/settings/panelPage.js:179
+msgid "Clock Position in Panel"
+msgstr ""
+
+#: src/settings/panelPage.js:203
+msgid "Offset the position within the above selected box"
+msgstr ""
+
+#: src/settings/panelPage.js:210
+msgid "Format Guide"
+msgstr ""
+
+#: src/settings/panelPage.js:226
+msgid "Customize Clock Format"
+msgstr ""
+
+#: src/settings/panelPage.js:287
+msgid "Clock Font Size"
+msgstr ""
+
+#: src/settings/panelPage.js:306
+msgid "Intellihide Options"
+msgstr ""
+
+#: src/settings/panelPage.js:315
+msgid "Reset settings"
+msgstr ""
+
+#: src/settings/panelPage.js:320
+#, javascript-format
+msgid "Reset all %s settings?"
+msgstr ""
+
+#: src/settings/panelPage.js:321
+#, javascript-format
+msgid "All %s settings will be reset to the default value."
+msgstr ""
+
+#: src/settings/panelPage.js:351
+msgid "Dodge Windows"
+msgstr ""
+
+#: src/settings/panelPage.js:352
+msgid "Show the panel when it doesn't obstruct app windows."
+msgstr ""
+
+#: src/settings/panelPage.js:357
+msgid "All Windows"
+msgstr ""
+
+#: src/settings/panelPage.js:358
+msgid "Only Focused Windows"
+msgstr ""
+
+#: src/settings/panelPage.js:359
+msgid "Only Maximized Windows"
+msgstr ""
+
+#: src/settings/panelPage.js:366
+msgid "Dodge Windows Mode"
+msgstr ""
+
+#: src/settings/panelPage.js:383
+msgid "Require Pressure To Reveal the Panel"
+msgstr ""
+
+#: src/settings/panelPage.js:391
+msgid "Pressure Threshold (px)"
+msgstr ""
+
+#: src/settings/panelPage.js:399
+msgid "Pressure Timeout (ms)"
+msgstr ""
+
+#: src/settings/panelPage.js:412
+msgid "Reveal Panel with Mouse while in Fullscreen App"
+msgstr ""
+
+#: src/settings/panelPage.js:418
+msgid "Only Hide Secondary Panels"
+msgstr ""
+
+#: src/settings/panelPage.js:429
+msgid "Hotkey to Reveal and Hold Panel"
+msgstr ""
+
+#: src/settings/panelPage.js:453
+msgid "Persist State Across Restarts"
+msgstr ""
+
+#: src/settings/panelPage.js:467
+msgid "Reveal and Hold the Panel on Notification"
+msgstr ""
+
+#: src/settings/panelPage.js:468
+msgid ""
+"Respects GNOME \"Do Not Disturb\" and requires show notification counter "
+"badge option."
+msgstr ""
+
+#: src/settings/panelPage.js:480
+msgid "Hide and Reveal Animation Duration (ms)"
+msgstr ""
+
+#: src/settings/panelPage.js:488
+msgid "Delay Before Hiding the Panel (ms)"
+msgstr ""
+
+#: src/settings/panelPage.js:496
+msgid "Delay Before Enabling Intellihide on Start (ms)"
+msgstr ""
+
+#: src/settings/panelPage.js:628
+msgid "Modify Hotkey"
+msgstr ""
+
+#: src/settings/panelPage.js:664
+msgid "Apply"
+msgstr ""
+
+#: src/settings/panelPage.js:676
+msgid "Cancel"
+msgstr ""
+
+#. TRANSLATORS: %s is replaced with a description of the keyboard shortcut, don't translate/transliterate <b>%s</b>
+#: src/settings/panelPage.js:696
+msgid "Enter a new hotkey"
+msgstr ""
+
+#: src/settings/panelPage.js:721
+msgid "Disabled"
+msgstr ""
+
+#: src/settings/panelPage.js:726
+msgid "Press Esc to cancel or Backspace to disable the keyboard shortcut."
+msgstr ""
+
+#: src/settings/panelPage.js:779
+#, javascript-format
+msgid "Conflict with <b>%s</b> hotkey"
+msgstr ""
+
+#. TRANSLATORS: This will display as "ProjectName v21 Released!" as an example.
+#: src/updateNotifier.js:68
+#, javascript-format
+msgid "%s v%s Released!"
+msgstr ""
+
+#: src/updateNotifier.js:71
+msgid "Check out what's new."
+msgstr ""
+
+#: src/updateNotifier.js:88
+msgid "What's new?"
+msgstr ""
+
+#: src/updateNotifier.js:89
+msgid "Dismiss"
+msgstr ""

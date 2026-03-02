@@ -1,0 +1,19 @@
+{
+  "name": "Top Apps Pannel",
+  "description": "A simple app icon taskbar. Show running apps and favorites on the main panel.",
+  "uuid": "topappspro@arjav",
+  "gettext-domain": "topappspro",
+  "settings-schema": "org.gnome.shell.extensions.topappspro",
+  "version-name": "31.1",
+  "shell-version": [
+    "45",
+    "46",
+    "47",
+    "48",
+    "49"
+  ],
+  "url": "https://github.com/arjavjain5203/Top-Apps-Pannel",
+  "donations": {
+    "buymeacoffee": "arjavjainjb"
+  }
+}

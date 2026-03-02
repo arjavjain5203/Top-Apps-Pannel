@@ -1,0 +1,780 @@
+# Russian translation for App Icons Taskbar.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the App Icons Taskbar package.
+# Ser82-png <asvmail.as@gmail.com>, 2022-2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-09-21 13:10-0400\n"
+"PO-Revision-Date: 2025-09-23 09:06+1000\n"
+"Last-Translator: Ser82-png <asvmail.as@gmail.com>\n"
+"Language-Team: \n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Generator: Poedit 3.0.1\n"
+
+#: src/appIcon.js:330
+msgid "Show All Apps"
+msgstr "Показывать все приложения"
+
+#: src/settings/aboutPage.js:28
+msgid "About"
+msgstr "О расширении"
+
+#: src/settings/aboutPage.js:33 src/settings/donatePage.js:17
+msgid "App Icons Taskbar"
+msgstr "App Icons Taskbar"
+
+#: src/settings/aboutPage.js:34
+msgid "Show running apps and favorites on the main panel"
+msgstr "Показ запущенных и избранных приложений на главной панели"
+
+#. TRANSLATORS: 'PROJECT_NAME' Version
+#: src/settings/aboutPage.js:79
+#, javascript-format
+msgid "%s Version"
+msgstr "Версия %s"
+
+#. TRANSLATORS: 'PROJECT_NAME' - Release Notes
+#: src/settings/aboutPage.js:88
+#, javascript-format
+msgid "%s - Release Notes"
+msgstr "%s - Примечания к выпуску"
+
+#: src/settings/aboutPage.js:90
+msgid "What's New"
+msgstr "Что нового"
+
+#: src/settings/aboutPage.js:140
+msgid "Message Tray Update Notification"
+msgstr "Сообщать об обновлении в области уведомлений"
+
+#: src/settings/aboutPage.js:141
+#, javascript-format
+msgid "Show a notification when %s receives an update."
+msgstr "Показывать уведомление при появлении обновления %s."
+
+#: src/settings/aboutPage.js:149
+msgid "Git Commit"
+msgstr "Git Commit"
+
+#: src/settings/aboutPage.js:159
+msgid "GNOME Version"
+msgstr "Версия GNOME"
+
+#: src/settings/aboutPage.js:168
+msgid "OS Name"
+msgstr "Название ОС"
+
+#: src/settings/aboutPage.js:181
+msgid "Windowing System"
+msgstr "Оконная система"
+
+#. TRANSLATORS: 'PROJECT_NAME' on GitLab
+#: src/settings/aboutPage.js:192
+#, javascript-format
+msgid "%s on GitLab"
+msgstr "%s на GitLab"
+
+#: src/settings/aboutPage.js:195
+msgid "Report an Issue"
+msgstr "Сообщить о проблеме"
+
+#. TRANSLATORS: 'PROJECT_NAME' Settings
+#: src/settings/aboutPage.js:205
+#, javascript-format
+msgid "%s Settings"
+msgstr "Настройки %s"
+
+#: src/settings/aboutPage.js:208
+msgid "Load"
+msgstr "Загрузить"
+
+#: src/settings/aboutPage.js:213
+msgid "Load Settings"
+msgstr "Загрузить настройки"
+
+#: src/settings/aboutPage.js:238
+msgid "Save"
+msgstr "Сохранить"
+
+#: src/settings/aboutPage.js:243
+msgid "Save Settings"
+msgstr "Сохранить настройки"
+
+#: src/settings/aboutPage.js:265 src/settings/aboutPage.js:266
+msgid "Legal"
+msgstr "Правовая оговорка"
+
+#: src/settings/aboutPage.js:272
+msgid "This program comes with absolutely no warranty."
+msgstr "Эта программа поставляется без каких-либо гарантий."
+
+#: src/settings/aboutPage.js:274
+msgid "GNU General Public License, version 2 or later"
+msgstr "Универсальная общественная лицензия GNU версии 2 или новее"
+
+#. TRANSLATORS: this is the program license url; the string contains the name of the license as link text.
+#: src/settings/aboutPage.js:274
+#, javascript-format
+msgid "See the <a href=\"%s\">%s</a> for details."
+msgstr "Подробнее смотрите <a href=\"%s\">%s</a>."
+
+#: src/settings/actionsPage.js:11
+msgid "Actions"
+msgstr "Действия"
+
+#: src/settings/actionsPage.js:18
+msgid "Click Actions"
+msgstr "Действия при щелчке мышью"
+
+#: src/settings/actionsPage.js:23
+msgid "Toggle / Cycle"
+msgstr "Переключение / По кругу"
+
+#: src/settings/actionsPage.js:24
+msgid "Toggle / Cycle + Minimize"
+msgstr "Переключение / По кругу + Свернуть"
+
+#: src/settings/actionsPage.js:25
+msgid "Toggle / Preview"
+msgstr "Переключение / Просмотр"
+
+#: src/settings/actionsPage.js:26
+msgid "Cycle"
+msgstr "По кругу"
+
+#: src/settings/actionsPage.js:27 src/settings/actionsPage.js:163
+msgid "Raise"
+msgstr "Поднять"
+
+#: src/settings/actionsPage.js:28
+msgid "Minimize"
+msgstr "Свернуть"
+
+#: src/settings/actionsPage.js:29
+msgid "Quit"
+msgstr "Завершить"
+
+#: src/settings/actionsPage.js:30
+msgid "Launch New Instance"
+msgstr "Запустить новый экземпляр"
+
+#: src/settings/actionsPage.js:31
+msgid "Raise Here"
+msgstr "Поднять"
+
+#: src/settings/actionsPage.js:38
+msgid "Left Click"
+msgstr "Щелчок левой кнопкой мыши"
+
+#: src/settings/actionsPage.js:53
+msgid "Middle Click"
+msgstr "Щелчок средней кнопкой мыши"
+
+#: src/settings/actionsPage.js:68
+msgid "Shift + Middle Click"
+msgstr "Shift + Щелчок средняя кнопка мыши"
+
+#: src/settings/actionsPage.js:78
+msgid "Scroll Actions"
+msgstr "Действия прокрутки"
+
+#: src/settings/actionsPage.js:83
+msgid "Cycle Windows"
+msgstr "Окна по кругу"
+
+#: src/settings/actionsPage.js:84
+msgid "No Action"
+msgstr "Нет действий"
+
+#: src/settings/actionsPage.js:86
+msgid "Scroll Action"
+msgstr "Действие прокрутки"
+
+#: src/settings/actionsPage.js:96
+msgid "Hover Actions"
+msgstr "Действия при наведении"
+
+#: src/settings/actionsPage.js:104
+msgid "Tool-Tips"
+msgstr "Подсказки"
+
+#: src/settings/actionsPage.js:126 src/settings/actionsPage.js:158
+msgid "Window Previews"
+msgstr "Окна предварительного просмотра"
+
+#: src/settings/actionsPage.js:145
+msgid "Window Preview Options"
+msgstr "Параметры окна предварительного просмотра"
+
+#: src/settings/actionsPage.js:164
+msgid "Raise/Minimize"
+msgstr "Поднять/Свернуть"
+
+#: src/settings/actionsPage.js:166
+msgid "Click Action"
+msgstr "Действие при щелчке мышью"
+
+#: src/settings/actionsPage.js:189
+msgid "Show Window Previews Delay"
+msgstr "Задержка при показе окна предварительного просмотра"
+
+#: src/settings/actionsPage.js:190
+msgid "Time in ms to show the window preview"
+msgstr "Время в мс для отображения окна предварительного просмотра"
+
+#: src/settings/actionsPage.js:210
+msgid "Hide Window Previews Delay"
+msgstr "Задержка до скрытия окна предварительного просмотра"
+
+#: src/settings/actionsPage.js:211
+msgid "Time in ms to hide the window preview"
+msgstr "Время в мс для скрытия окна предварительного просмотра"
+
+#: src/settings/actionsPage.js:218
+msgid "Window Preview Style"
+msgstr "Стиль окна предварительного просмотра"
+
+#: src/settings/actionsPage.js:223
+msgid "Enable Grid Layout"
+msgstr "Включить разметку в виде сетки"
+
+#: src/settings/actionsPage.js:224
+msgid "Display window previews in a grid layout"
+msgstr "Отображение окна предварительного просмотра в виде сетки"
+
+#: src/settings/actionsPage.js:248
+msgid "Grid Columns"
+msgstr "Число колонок сетки"
+
+#: src/settings/actionsPage.js:268
+msgid "Switch Window Preview Delay"
+msgstr "Задержка при переключении окна предварительного просмотра"
+
+#: src/settings/actionsPage.js:269
+msgid "Time in ms to switch to a new window preview"
+msgstr ""
+"Время в мс между переключением на новое окно предварительного просмотра"
+
+#: src/settings/actionsPage.js:289
+msgid "Scaling Factor"
+msgstr "Коэффициент масштабирования"
+
+#: src/settings/actionsPage.js:309
+msgid "Title Font Size"
+msgstr "Размер шрифта часов"
+
+#: src/settings/actionsPage.js:329
+msgid "App Icon Size"
+msgstr "Размер значка приложения"
+
+#: src/settings/actionsPage.js:349
+msgid "Button Size"
+msgstr "Размер кнопки"
+
+#: src/settings/actionsPage.js:350 src/settings/actionsPage.js:371
+#: src/settings/actionsPage.js:392
+msgid "Close/Minimize Buttons"
+msgstr "Кнопки «Закрыть»/«Свернуть»"
+
+#: src/settings/actionsPage.js:370
+msgid "Button Icon Size"
+msgstr "Размер значка на кнопке"
+
+#: src/settings/actionsPage.js:391
+msgid "Button Spacing"
+msgstr "Расстояние между кнопками"
+
+#: src/settings/actionsPage.js:403
+msgid "Show Minimize Button"
+msgstr "Показывать кнопку «Свернуть»"
+
+#: src/settings/actionsPage.js:413 src/settings/actionsPage.js:421
+msgid "Window Peeking"
+msgstr "Быстрый просмотр окна"
+
+#: src/settings/actionsPage.js:422
+msgid "Hovering a window preview will focus desired window"
+msgstr "Наведение на окно предварительного просмотра выведет нужное окно"
+
+#: src/settings/actionsPage.js:446
+msgid "Window Peeking Delay"
+msgstr "Задержка при выводе быстрого просмотра окна"
+
+#: src/settings/actionsPage.js:447
+msgid "Time in ms to trigger window peek"
+msgstr "Время в мс для запуска быстрого просмотра окна"
+
+#: src/settings/actionsPage.js:467
+msgid "Window Peeking Opacity"
+msgstr "Непрозрачность при быстром просмотре окна"
+
+#: src/settings/actionsPage.js:468
+msgid "Opacity of non-focused windows during a window peek"
+msgstr "Непрозрачность несфокусированных окон во время быстрого просмотра"
+
+#: src/settings/donatePage.js:12 src/updateNotifier.js:85
+msgid "Donate"
+msgstr "Пожертвовать"
+
+#: src/settings/donatePage.js:22
+#, javascript-format
+msgid "Help Support %s"
+msgstr "Помогите поддержать %s"
+
+#: src/settings/donatePage.js:23 src/updateNotifier.js:73
+#, javascript-format
+msgid ""
+"Thank you for using %s! If you enjoy it and would like to help support its "
+"continued development, please consider making a donation."
+msgstr ""
+"Благодарим вас за использование %s! Если вам нравится приложение и вы хотели "
+"бы поддержать его дальнейшее развитие, пожалуйста, подумайте о пожертвовании."
+
+#: src/settings/donatePage.js:27
+msgid "Donate via PayPal"
+msgstr "Пожертвовать через PayPal"
+
+#: src/settings/donatePage.js:30
+msgid "Donate via Buy Me a Coffee"
+msgstr "Пожертвовать через «Buy Me a Coffee»"
+
+#: src/settings/donatePage.js:42
+#, javascript-format
+msgid ""
+"A huge thank you to everyone who has supported %s! Your support helps keep "
+"%s going. It is truly appreciated!"
+msgstr ""
+"Огромное спасибо всем, кто поддерживал %s! Ваша поддержка помогает %s "
+"развиваться. Мы очень ценим это!"
+
+#: src/settings/generalPage.js:16
+msgid "Settings"
+msgstr "Настройки"
+
+#: src/settings/generalPage.js:24
+msgid "General"
+msgstr "Общие"
+
+#: src/settings/generalPage.js:33
+msgid "Hide Dash in Overview"
+msgstr "Скрывать Dash-панель в режиме «Обзор»"
+
+#: src/settings/generalPage.js:43
+msgid "App Icons Taskbar Behavior"
+msgstr "Поведение значков приложений на панели задач"
+
+#: src/settings/generalPage.js:48 src/settings/generalPage.js:122
+#: src/settings/panelPage.js:156 src/settings/panelPage.js:175
+msgid "Left"
+msgstr "Слева"
+
+#: src/settings/generalPage.js:49 src/settings/panelPage.js:176
+msgid "Center"
+msgstr "В центре"
+
+#: src/settings/generalPage.js:50 src/settings/generalPage.js:123
+#: src/settings/panelPage.js:157 src/settings/panelPage.js:177
+msgid "Right"
+msgstr "Справа"
+
+#: src/settings/generalPage.js:52
+msgid "App Icons Position in Panel"
+msgstr "Расположение значков приложений на панели"
+
+#: src/settings/generalPage.js:75 src/settings/panelPage.js:202
+msgid "Position Offset"
+msgstr "Смещение положения"
+
+#: src/settings/generalPage.js:76
+msgid "Offset the App Icons position within the panel box."
+msgstr "Сместить положение значков приложений в пределах панели."
+
+#: src/settings/generalPage.js:96
+msgid "Taskbar Spacing"
+msgstr "Расстояния на панеле задач"
+
+#: src/settings/generalPage.js:97
+msgid "The spacing between the App Icons on the taskbar."
+msgstr "Расстояние между значками приложений на панели задач."
+
+#: src/settings/generalPage.js:132
+msgid "Enable \"Show All Apps\" Button"
+msgstr "Показывать кнопку «Обзор»"
+
+#: src/settings/generalPage.js:147
+msgid "Show Favorite Apps"
+msgstr "Показывать избранные приложения"
+
+#: src/settings/generalPage.js:162
+msgid "Show Favorites on All Monitors"
+msgstr "Показывать избранные приложения на всех мониторах"
+
+#: src/settings/generalPage.js:172
+msgid "Show Running Apps"
+msgstr "Показывать запущенные приложения"
+
+#: src/settings/generalPage.js:186
+msgid "Isolate Workspaces"
+msgstr "Изолировать рабочие пространства"
+
+#: src/settings/generalPage.js:200
+msgid "Isolate Monitors"
+msgstr "Изолировать мониторы"
+
+#: src/settings/generalPage.js:211
+msgid "App Icons"
+msgstr "Значки приложений"
+
+#: src/settings/generalPage.js:229
+msgid "Icon Size"
+msgstr "Размер значка"
+
+#: src/settings/generalPage.js:249
+msgid "App Icon Horizontal Padding"
+msgstr "Горизонтальное заполнение значков приложений"
+
+#: src/settings/generalPage.js:269
+msgid "Icon Desaturate Factor"
+msgstr "Коэффициент обесцвечивания значка"
+
+#: src/settings/generalPage.js:276
+msgid "Regular"
+msgstr "Обычные"
+
+#: src/settings/generalPage.js:277
+msgid "Symbolic"
+msgstr "Символьные"
+
+#: src/settings/generalPage.js:279
+msgid "Icon Style"
+msgstr "Стиль значков"
+
+#: src/settings/generalPage.js:280
+msgid "Icon themes may not have a symbolic icon for every app"
+msgstr ""
+"Темы значков могут содержать символические значки не для всех приложений"
+
+#: src/settings/generalPage.js:294
+msgid "Dance Urgent App Icons"
+msgstr "Танцующие значки актуальных приложений"
+
+#: src/settings/generalPage.js:304
+msgid "App Icon Indicators"
+msgstr "Индикаторы значков приложений"
+
+#: src/settings/generalPage.js:309
+msgid "Indicator"
+msgstr "Индикатор"
+
+#: src/settings/generalPage.js:310
+msgid "Multi-Dashes"
+msgstr "Мульти-чёрточки"
+
+#: src/settings/generalPage.js:312
+msgid "Multi-Window Indicator Style"
+msgstr "Стиль многооконного индикатора"
+
+#: src/settings/generalPage.js:322 src/settings/panelPage.js:52
+msgid "Top"
+msgstr "Сверху"
+
+#: src/settings/generalPage.js:323 src/settings/panelPage.js:53
+msgid "Bottom"
+msgstr "Снизу"
+
+#: src/settings/generalPage.js:325
+msgid "Indicator Location"
+msgstr "Расположение индикатора"
+
+#: src/settings/generalPage.js:339
+msgid "Use System Accent Colors"
+msgstr "Использовать системные цвета акцентов"
+
+#: src/settings/generalPage.js:364
+msgid "Running Indicator Color"
+msgstr "Цвет индикатора запущенного приложения"
+
+#: src/settings/generalPage.js:384
+msgid "Focused Indicator Color"
+msgstr "Цвет индикатора приложения, находящегося в фокусе"
+
+#: src/settings/generalPage.js:392
+msgid "App Icon Badges"
+msgstr "Информационные элементы значков приложений"
+
+#: src/settings/generalPage.js:401
+msgid "Notification Badges Count"
+msgstr "Счётчик уведомлений"
+
+#: src/settings/generalPage.js:402
+msgid "Adds a badge counter to the App Icon based on GNOME shell notifications"
+msgstr ""
+"Добавляет счётчик уведомлений к значкам приложений, основанный на "
+"уведомлениях GNOME shell"
+
+#: src/settings/generalPage.js:416
+msgid "Always Show Notification Badges"
+msgstr "Всегда показывать значки уведомлений"
+
+#: src/settings/generalPage.js:417
+msgid "Bypass \"Do Not Disturb\" mode"
+msgstr "Игнорировать режим «Не беспокоить»"
+
+#: src/settings/generalPage.js:431
+msgid "Unity Badges Count"
+msgstr "Счётчик значков Unity"
+
+#: src/settings/generalPage.js:432 src/settings/generalPage.js:447
+msgid "Requires Unity API"
+msgstr "Требуется Unity API"
+
+#: src/settings/generalPage.js:446
+msgid "Unity Progress Bars"
+msgstr "Индикатор выполнения Unity"
+
+#: src/settings/panelPage.js:14 src/settings/panelPage.js:22
+msgid "Panel"
+msgstr "Панель"
+
+#: src/settings/panelPage.js:38
+msgid "Panel Intellihide"
+msgstr "Автоматическое скрытие панели"
+
+#: src/settings/panelPage.js:55
+msgid "Panel Location"
+msgstr "Расположение панели"
+
+#: src/settings/panelPage.js:68
+msgid "Show Panels on All Monitors"
+msgstr "Показывать панель на всех мониторах"
+
+#: src/settings/panelPage.js:112
+msgid "Panel Height"
+msgstr "Высота панели"
+
+#: src/settings/panelPage.js:129
+msgid "Transparent Panel in Overview"
+msgstr "Прозрачная панель в режиме «Обзор»"
+
+#: src/settings/panelPage.js:143
+msgid "Show Activities Button"
+msgstr "Показывать кнопку «Обзор»"
+
+#: src/settings/panelPage.js:155
+msgid "Off"
+msgstr "Выключено"
+
+#: src/settings/panelPage.js:159
+msgid "Show Weather near Clock"
+msgstr "Показывать погоду рядом с часами"
+
+#: src/settings/panelPage.js:170
+msgid "Customize Panel Clock"
+msgstr "Настройка часов панели"
+
+#: src/settings/panelPage.js:179
+msgid "Clock Position in Panel"
+msgstr "Расположение часов на панели"
+
+#: src/settings/panelPage.js:203
+msgid "Offset the position within the above selected box"
+msgstr "Сместить положение в пределах диапазона выбранного выше"
+
+#: src/settings/panelPage.js:210
+msgid "Format Guide"
+msgstr "Руководство по формату"
+
+#: src/settings/panelPage.js:226
+msgid "Customize Clock Format"
+msgstr "Настроить формат часов"
+
+#: src/settings/panelPage.js:287
+msgid "Clock Font Size"
+msgstr "Размер шрифта часов"
+
+#: src/settings/panelPage.js:306
+msgid "Intellihide Options"
+msgstr "Параметры автоматического скрытия"
+
+#: src/settings/panelPage.js:315
+msgid "Reset settings"
+msgstr "Сбросить настройки"
+
+#: src/settings/panelPage.js:320
+#, javascript-format
+msgid "Reset all %s settings?"
+msgstr "Сбросить все настройки %s?"
+
+#: src/settings/panelPage.js:321
+#, javascript-format
+msgid "All %s settings will be reset to the default value."
+msgstr "Все настройки %s будут сброшены на значения по умолчанию."
+
+#: src/settings/panelPage.js:351
+msgid "Dodge Windows"
+msgstr "Перекрытие окнами"
+
+#: src/settings/panelPage.js:352
+msgid "Show the panel when it doesn't obstruct app windows."
+msgstr "Показывать панель, если она не перекрывает окна приложения."
+
+#: src/settings/panelPage.js:357
+msgid "All Windows"
+msgstr "Всеми окнами"
+
+#: src/settings/panelPage.js:358
+msgid "Only Focused Windows"
+msgstr "Только активным окном"
+
+#: src/settings/panelPage.js:359
+msgid "Only Maximized Windows"
+msgstr "Только развёрнутыми окнами"
+
+#: src/settings/panelPage.js:366
+msgid "Dodge Windows Mode"
+msgstr "Режим «Перекрытие окнами»"
+
+#: src/settings/panelPage.js:383
+msgid "Require Pressure To Reveal the Panel"
+msgstr "Для открытия панели требуется давление"
+
+#: src/settings/panelPage.js:391
+msgid "Pressure Threshold (px)"
+msgstr "Порог давления (пикс.)"
+
+#: src/settings/panelPage.js:399
+msgid "Pressure Timeout (ms)"
+msgstr "Таймаут давления (мс)"
+
+#: src/settings/panelPage.js:412
+msgid "Reveal Panel with Mouse while in Fullscreen App"
+msgstr ""
+"Открывать панель с помощью мыши при развёрнутом во весь экран приложении"
+
+#: src/settings/panelPage.js:418
+msgid "Only Hide Secondary Panels"
+msgstr "Скрывать только второстепенные панели"
+
+#: src/settings/panelPage.js:429
+msgid "Hotkey to Reveal and Hold Panel"
+msgstr "Горячая клавиша для открытия и удержания панели"
+
+#: src/settings/panelPage.js:453
+msgid "Persist State Across Restarts"
+msgstr "Cохранять своё состояние при перезапуске"
+
+#: src/settings/panelPage.js:467
+msgid "Reveal and Hold the Panel on Notification"
+msgstr "Открывать и удерживать панель при появлении уведомлений"
+
+#: src/settings/panelPage.js:468
+msgid ""
+"Respects GNOME \"Do Not Disturb\" and requires show notification counter "
+"badge option."
+msgstr ""
+"Учитывается режим GNOME «Не беспокоить» и требуется включение счётчика "
+"уведомлений для значков."
+
+#: src/settings/panelPage.js:480
+msgid "Hide and Reveal Animation Duration (ms)"
+msgstr "Длительность анимации скрытия и отображения (мс)"
+
+#: src/settings/panelPage.js:488
+msgid "Delay Before Hiding the Panel (ms)"
+msgstr "Задержка перед скрытием панели (мс)"
+
+#: src/settings/panelPage.js:496
+msgid "Delay Before Enabling Intellihide on Start (ms)"
+msgstr "Задержка перед включением автоматического скрытия после запуска (мс)"
+
+#: src/settings/panelPage.js:628
+msgid "Modify Hotkey"
+msgstr "Изменить горячие клавиши"
+
+#: src/settings/panelPage.js:664
+msgid "Apply"
+msgstr "Применить"
+
+#: src/settings/panelPage.js:676
+msgid "Cancel"
+msgstr "Отменить"
+
+#. TRANSLATORS: %s is replaced with a description of the keyboard shortcut, don't translate/transliterate <b>%s</b>
+#: src/settings/panelPage.js:696
+msgid "Enter a new hotkey"
+msgstr "Введите новую горячую клавишу"
+
+#: src/settings/panelPage.js:721
+msgid "Disabled"
+msgstr "Отключено"
+
+#: src/settings/panelPage.js:726
+msgid "Press Esc to cancel or Backspace to disable the keyboard shortcut."
+msgstr "Нажмите Esc для отмены или Backspace для отключения комбинации клавиш."
+
+#: src/settings/panelPage.js:779
+#, javascript-format
+msgid "Conflict with <b>%s</b> hotkey"
+msgstr "Конфликт с горячей клавишей <b>%s</b>"
+
+#. TRANSLATORS: This will display as "ProjectName v21 Released!" as an example.
+#: src/updateNotifier.js:68
+#, javascript-format
+msgid "%s v%s Released!"
+msgstr "Выпущено %s v%s!"
+
+#: src/updateNotifier.js:71
+msgid "Check out what's new."
+msgstr "Посмотрите, что появилось нового."
+
+#: src/updateNotifier.js:88
+msgid "What's new?"
+msgstr "Что нового?"
+
+#: src/updateNotifier.js:89
+msgid "Dismiss"
+msgstr "Отклонить"
+
+#~ msgid "Taskbar Behavior"
+#~ msgstr "Поведение панели задач"
+
+#~ msgid "App Icons Taskbar on GitLab"
+#~ msgstr "App Icons Taskbar на GitLab"
+
+#~ msgid "App Icons Taskbar Settings"
+#~ msgstr "Настройки App Icons Taskbar"
+
+#, javascript-format
+#~ msgid "Message from %s"
+#~ msgstr "Сообщение от %s"
+
+#~ msgid "Show App Menu Button"
+#~ msgstr "Показывать кнопку меню приложения"
+
+#~ msgid "Panel menu button that shows focused app"
+#~ msgstr "Кнопка меню приложения, находящегося в фокусе"
+
+#~ msgid "Modify Left Click Action of Running App Icons"
+#~ msgstr ""
+#~ "Изменить действие щелчка левой кнопкой мыши на значках запущенных "
+#~ "приложений"
+
+#~ msgid "Show App Title on Focused App Icon"
+#~ msgstr "Показывать на значке название приложения, находящегося в фокусе"
+
+#~ msgid "Show Applications"
+#~ msgstr "Показывать приложения"
+
+#~ msgid "OS"
+#~ msgstr "ОС"
+
+#~ msgid "Session Type"
+#~ msgstr "Тип сессии"
