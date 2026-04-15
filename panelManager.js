@@ -111,17 +111,14 @@ export const PanelManager = class topAppsProPanelManager {
             return;
 
         this._panel.remove_style_pseudo_class('overview');
-        Main.overview.disconnectObject(this._panel);
+        Main.overview.disconnectObject(this);
 
         const transparencyEnabled = TaskbarManager.settings.get_boolean('panel-transparent-in-overview');
         if (transparencyEnabled) {
-            Main.overview.connectObject('showing', () => {
-                this._panel.add_style_pseudo_class('overview');
-            }, this._panel);
-
-            Main.overview.connectObject('hiding', () => {
-                this._panel.remove_style_pseudo_class('overview');
-            }, this._panel);
+            Main.overview.connectObject(
+                'showing', () => this._panel.add_style_pseudo_class('overview'),
+                'hiding', () => this._panel.remove_style_pseudo_class('overview'),
+                this);
 
             if (Main.overview.visible)
                 this._panel.add_style_pseudo_class('overview');
@@ -388,7 +385,7 @@ export const PanelManager = class topAppsProPanelManager {
         this._clockDisplay.disconnectObject(this);
         this.panelBox.disconnectObject(this);
         TaskbarManager.settings.disconnectObject(this);
-        Main.overview.disconnectObject(this._panel);
+        Main.overview.disconnectObject(this);
 
         if (this._workareasChangedId) {
             this._workareasChangedId = Utils.safeDisconnect(global.display, this._workareasChangedId);

@@ -1,15 +1,16 @@
 import Gio from 'gi://Gio';
 
-import * as Config from 'resource:///org/gnome/shell/misc/config.js';
 import * as Main from 'resource:///org/gnome/shell/ui/main.js';
 import * as MessageTray from 'resource:///org/gnome/shell/ui/messageTray.js';
 
 import {gettext as _} from 'resource:///org/gnome/shell/extensions/extension.js';
 
+import * as Utils from './utils.js';
+
 const PROJECT_NAME = 'App Icons Taskbar';
 const PROJECT_ICON = '/media/topappspro-logo.svg';
 
-const [ShellVersion] = Config.PACKAGE_VERSION.split('.').map(s => Number(s));
+const ShellVersion = Utils.ShellVersion;
 
 /**
  * A MessageTray notification that notifies users that the extension has been updated.
