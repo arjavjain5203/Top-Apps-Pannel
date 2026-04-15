@@ -1,0 +1,725 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the App Icons Taskbar package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: App Icons Taskbar\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-03-30 20:19-0400\n"
+"PO-Revision-Date: 2025-04-13 15:15+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: hu_HU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.6\n"
+
+#: appIcon.js:252
+msgid "Show All Apps"
+msgstr "Alkalmazások Megjelenítése"
+
+#: settings/aboutPage.js:16
+msgid "About"
+msgstr "Névjegy"
+
+#: settings/aboutPage.js:21 settings/donatePage.js:17
+msgid "App Icons Taskbar"
+msgstr "App Icons Taskbar"
+
+#: settings/aboutPage.js:22
+msgid "Show running apps and favorites on the main panel"
+msgstr "A futó és kedvenc alkalmazások megjelenítése a fő panelen"
+
+#. TRANSLATORS: 'PROJECT_NAME' Version
+#: settings/aboutPage.js:67
+#, javascript-format
+msgid "%s Version"
+msgstr "%s Verzió"
+
+#. TRANSLATORS: 'PROJECT_NAME' - Release Notes
+#: settings/aboutPage.js:76
+#, javascript-format
+msgid "%s - Release Notes"
+msgstr "%s - Kiadási Megjegyzések"
+
+#: settings/aboutPage.js:78
+msgid "What's New"
+msgstr "Újdonságok"
+
+#: settings/aboutPage.js:123
+msgid "Message Tray Update Notification"
+msgstr "Üzenettálca Frissítési Értesítés"
+
+#: settings/aboutPage.js:124
+#, javascript-format
+msgid "Show a notification when %s receives an update."
+msgstr "Értesítés megjelenítése, ha %s frissítést kap."
+
+#: settings/aboutPage.js:132
+msgid "Git Commit"
+msgstr "Git Commit"
+
+#: settings/aboutPage.js:142
+msgid "GNOME Version"
+msgstr "GNOME Verzió"
+
+#: settings/aboutPage.js:151
+msgid "OS Name"
+msgstr "Operációs Rendszer Neve"
+
+#: settings/aboutPage.js:164
+msgid "Windowing System"
+msgstr "Ablakkezelő Rendszer"
+
+#. TRANSLATORS: 'PROJECT_NAME' on GitLab
+#: settings/aboutPage.js:175
+#, javascript-format
+msgid "%s on GitLab"
+msgstr "%s a GitLab-on"
+
+#: settings/aboutPage.js:178
+msgid "Report an Issue"
+msgstr "Probléma Jelentése"
+
+#. TRANSLATORS: 'PROJECT_NAME' Settings
+#: settings/aboutPage.js:188
+#, javascript-format
+msgid "%s Settings"
+msgstr "%s Beállítások"
+
+#: settings/aboutPage.js:191
+msgid "Load"
+msgstr "Betöltés"
+
+#: settings/aboutPage.js:196
+msgid "Load Settings"
+msgstr "Beállítások Betöltése"
+
+#: settings/aboutPage.js:222
+msgid "Save"
+msgstr "Mentés"
+
+#: settings/aboutPage.js:227
+msgid "Save Settings"
+msgstr "Beállítások Mentése"
+
+#: settings/aboutPage.js:249 settings/aboutPage.js:250
+msgid "Legal"
+msgstr "Jogi Információk"
+
+#: settings/aboutPage.js:256
+msgid "This program comes with absolutely no warranty."
+msgstr "Erre a programra egyáltalán nincs garancia."
+
+#: settings/aboutPage.js:258
+msgid "GNU General Public License, version 2 or later"
+msgstr "GNU General Public License, 2. vagy újabb verzió"
+
+#. TRANSLATORS: this is the program license url; the string contains the name of the license as link text.
+#: settings/aboutPage.js:258
+#, javascript-format
+msgid "See the <a href=\"%s\">%s</a> for details."
+msgstr "A részleteket megnézheted a <a href=\"%s\">%s</a> oldalon."
+
+#: settings/actionsPage.js:11
+msgid "Actions"
+msgstr "Műveletek"
+
+#: settings/actionsPage.js:18
+msgid "Click Actions"
+msgstr "Kattintás Műveletek"
+
+#: settings/actionsPage.js:23
+msgid "Toggle / Cycle"
+msgstr "Váltás / Ciklikus"
+
+#: settings/actionsPage.js:24
+msgid "Toggle / Cycle + Minimize"
+msgstr "Váltás / Ciklikus + Kicsinyítés"
+
+#: settings/actionsPage.js:25
+msgid "Toggle / Preview"
+msgstr "Váltás / Előnézet"
+
+#: settings/actionsPage.js:26
+msgid "Cycle"
+msgstr "Ciklikus"
+
+#: settings/actionsPage.js:27 settings/actionsPage.js:163
+msgid "Raise"
+msgstr "Megjelesítés"
+
+#: settings/actionsPage.js:28
+msgid "Minimize"
+msgstr "Kicsinítés"
+
+#: settings/actionsPage.js:29
+msgid "Quit"
+msgstr "Kilépés"
+
+#: settings/actionsPage.js:30
+msgid "Launch New Instance"
+msgstr "Új Példány Indítása"
+
+#: settings/actionsPage.js:31
+msgid "Raise Here"
+msgstr "Megjelesítés Itt"
+
+#: settings/actionsPage.js:38
+msgid "Left Click"
+msgstr "Bal Kattintás"
+
+#: settings/actionsPage.js:53
+msgid "Middle Click"
+msgstr "Középső Kattintás"
+
+#: settings/actionsPage.js:68
+msgid "Shift + Middle Click"
+msgstr "Shift + Középső Kattintás"
+
+#: settings/actionsPage.js:78
+msgid "Scroll Actions"
+msgstr "Görgetés Műveletek"
+
+#: settings/actionsPage.js:83
+msgid "Cycle Windows"
+msgstr "Ciklikus Ablakok"
+
+#: settings/actionsPage.js:84
+msgid "No Action"
+msgstr "Nincs Művelet"
+
+#: settings/actionsPage.js:86
+msgid "Scroll Action"
+msgstr "Görgetés Művelet"
+
+#: settings/actionsPage.js:96
+msgid "Hover Actions"
+msgstr "Rámutatás Művelet"
+
+#: settings/actionsPage.js:104
+msgid "Tool-Tips"
+msgstr "Eszköztippek"
+
+#: settings/actionsPage.js:126 settings/actionsPage.js:158
+msgid "Window Previews"
+msgstr "Ablak Előnézetei"
+
+#: settings/actionsPage.js:145
+msgid "Window Preview Options"
+msgstr "Ablak Előnézet Beállításai"
+
+#: settings/actionsPage.js:164
+msgid "Raise/Minimize"
+msgstr "Megjelesítés/Kicsinyítés"
+
+#: settings/actionsPage.js:166
+msgid "Click Action"
+msgstr "Kattintás Művelet"
+
+#: settings/actionsPage.js:189
+msgid "Show Window Previews Delay"
+msgstr "Ablak Előnézet Megjelenítés Késleltetés"
+
+#: settings/actionsPage.js:190
+msgid "Time in ms to show the window preview"
+msgstr "Az ablak előnézetének megjelenítéséhez szükséges idő ms-ban"
+
+#: settings/actionsPage.js:210
+msgid "Hide Window Previews Delay"
+msgstr "Ablak Előnézet Elrejés Késleltetés"
+
+#: settings/actionsPage.js:211
+msgid "Time in ms to hide the window preview"
+msgstr "Az ablak előnézetének elrejtéséhez szükséges idő ms-ban"
+
+#: settings/actionsPage.js:218
+msgid "Window Preview Style"
+msgstr "Ablak Előnézet Stílus"
+
+#: settings/actionsPage.js:236
+msgid "Scaling Factor"
+msgstr "Méretezési Faktor"
+
+#: settings/actionsPage.js:256
+msgid "Title Font Size"
+msgstr "Cím Betű Méret"
+
+#: settings/actionsPage.js:276
+msgid "App Icon Size"
+msgstr "Alkalmazás Ikon Méret"
+
+#: settings/actionsPage.js:296
+msgid "Button Size"
+msgstr "Gomb Méret"
+
+#: settings/actionsPage.js:297 settings/actionsPage.js:318
+#: settings/actionsPage.js:339
+msgid "Close/Minimize Buttons"
+msgstr "Bezárás/Kicsinyítés Gombok"
+
+#: settings/actionsPage.js:317
+msgid "Button Icon Size"
+msgstr "Gomb Ikon Méret"
+
+#: settings/actionsPage.js:338
+msgid "Button Spacing"
+msgstr "Gomb távolság"
+
+#: settings/actionsPage.js:350
+msgid "Show Minimize Button"
+msgstr "Kicsinyítés Gomb Megjelenítése"
+
+#: settings/actionsPage.js:360 settings/actionsPage.js:368
+msgid "Window Peeking"
+msgstr "Ablak Betekintés"
+
+#: settings/actionsPage.js:369
+msgid "Hovering a window preview will focus desired window"
+msgstr "Ha egy ablak előnézetére rámutat, az a kívánt ablakra fókuszál"
+
+#: settings/actionsPage.js:393
+msgid "Window Peeking Delay"
+msgstr "Ablak Betekintés Késleltetés"
+
+#: settings/actionsPage.js:394
+msgid "Time in ms to trigger window peek"
+msgstr "Az ablak betekintésének aktiválásához szükséges idő ms-ban"
+
+#: settings/actionsPage.js:414
+msgid "Window Peeking Opacity"
+msgstr "Ablak Betekintés Átlátszatlanság"
+
+#: settings/actionsPage.js:415
+msgid "Opacity of non-focused windows during a window peek"
+msgstr "A nem fókuszált ablakok átlátszatlansága ablakbetekintés közben"
+
+#: settings/donatePage.js:12 updateNotifier.js:64
+msgid "Donate"
+msgstr "Támogatás"
+
+#: settings/donatePage.js:22
+#, javascript-format
+msgid "Help Support %s"
+msgstr "Segíts Támogatni az %s-t"
+
+#: settings/donatePage.js:23 updateNotifier.js:55
+#, javascript-format
+msgid ""
+"Thank you for using %s! If you enjoy it and would like to help support its "
+"continued development, please consider making a donation."
+msgstr ""
+"Köszönjük, hogy a %s-t használod! Ha tetszik, és szeretnéd támogatni a "
+"folyamatos fejlesztését, kérjük, fontold meg a támogatást."
+
+#: settings/donatePage.js:27
+msgid "Donate via PayPal"
+msgstr "Adományozás PayPal-al"
+
+#: settings/donatePage.js:30
+msgid "Donate via Buy Me a Coffee"
+msgstr "Adományozás Buy Me a Coffee-val"
+
+#: settings/donatePage.js:42
+#, javascript-format
+msgid ""
+"A huge thank you to everyone who has supported %s! Your support helps keep "
+"%s going. It is truly appreciated!"
+msgstr ""
+"Hatalmas köszönet mindenkinek, aki támogatta az %s-t! A támogatásotok segít "
+"fenntartani a %s-t. Igazán nagyra értékeljük!"
+
+#: settings/generalPage.js:13
+msgid "Settings"
+msgstr "Beállítások"
+
+#: settings/generalPage.js:21
+msgid "General"
+msgstr "Általános"
+
+#: settings/generalPage.js:30
+msgid "Hide Dash in Overview"
+msgstr "A Dash Elrejtése az Áttekintésben"
+
+#: settings/generalPage.js:40
+msgid "App Icons Taskbar Behavior"
+msgstr "App Icons Taskbar Viselkedés"
+
+#: settings/generalPage.js:45 settings/generalPage.js:119
+#: settings/panelPage.js:142 settings/panelPage.js:161
+msgid "Left"
+msgstr "Baloldalt"
+
+#: settings/generalPage.js:46 settings/panelPage.js:162
+msgid "Center"
+msgstr "Középen"
+
+#: settings/generalPage.js:47 settings/generalPage.js:120
+#: settings/panelPage.js:143 settings/panelPage.js:163
+msgid "Right"
+msgstr "Jobboldalt"
+
+#: settings/generalPage.js:49
+msgid "App Icons Position in Panel"
+msgstr "Alkalmazás Ikonok Pozíciója a Panelen"
+
+#: settings/generalPage.js:72 settings/panelPage.js:188
+msgid "Position Offset"
+msgstr "Pozícióeltolás"
+
+#: settings/generalPage.js:73
+msgid "Offset the App Icons position within the panel box."
+msgstr "Alkalmazásikonok pozíciójának eltolása a panelen belül."
+
+#: settings/generalPage.js:93
+msgid "Taskbar Spacing"
+msgstr "Feladatsáv Távolság"
+
+#: settings/generalPage.js:94
+msgid "The spacing between the App Icons on the taskbar."
+msgstr "Az alkalmazásikonok közötti távolság a tálcán."
+
+#: settings/generalPage.js:129
+msgid "Enable \"Show All Apps\" Button"
+msgstr "„Minden Alkalmazás Megjelenítése” Gomb Engedélyezése"
+
+#: settings/generalPage.js:144
+msgid "Show Favorite Apps"
+msgstr "Kedvenc Alkalmazások Megjelenítése"
+
+#: settings/generalPage.js:159
+msgid "Show Favorites on All Monitors"
+msgstr "Kedvencek Megjelenítése az Összes Monitoron"
+
+#: settings/generalPage.js:169
+msgid "Show Running Apps"
+msgstr "Futó Alkalmazások Megjelenítése"
+
+#: settings/generalPage.js:183
+msgid "Isolate Workspaces"
+msgstr "Munkaterületek Elkülönítése"
+
+#: settings/generalPage.js:197
+msgid "Isolate Monitors"
+msgstr "Monitorok Elkülönítése"
+
+#: settings/generalPage.js:208
+msgid "App Icons"
+msgstr "Alkalmazás Ikonok"
+
+#: settings/generalPage.js:226
+msgid "Icon Size"
+msgstr "Ikon Méret"
+
+#: settings/generalPage.js:246
+msgid "App Icon Horizontal Padding"
+msgstr "Alkalmazás Ikon Vízszintes Kitöltés"
+
+#: settings/generalPage.js:266
+msgid "Icon Desaturate Factor"
+msgstr "Ikon Szín Telítetlenségi Faktor"
+
+#: settings/generalPage.js:273
+msgid "Regular"
+msgstr "Normál"
+
+#: settings/generalPage.js:274
+msgid "Symbolic"
+msgstr "Szimbolikus"
+
+#: settings/generalPage.js:276
+msgid "Icon Style"
+msgstr "Ikon Stílus"
+
+#: settings/generalPage.js:277
+msgid "Icon themes may not have a symbolic icon for every app"
+msgstr ""
+"Előfordulhat, hogy az ikontémák nem minden alkalmazáshoz rendelkeznek "
+"szimbolikus ikonnal"
+
+#: settings/generalPage.js:291
+msgid "Dance Urgent App Icons"
+msgstr "Ugráló Sürgős App Ikonok"
+
+#: settings/generalPage.js:301
+msgid "App Icon Indicators"
+msgstr "Alkalmazás Ikon Jelzők"
+
+#: settings/generalPage.js:306
+msgid "Indicator"
+msgstr "Jelző"
+
+#: settings/generalPage.js:307
+msgid "Multi-Dashes"
+msgstr "Több-Vonal"
+
+#: settings/generalPage.js:309
+msgid "Multi-Window Indicator Style"
+msgstr "Több Ablakos Jelző Stílus"
+
+#: settings/generalPage.js:319 settings/panelPage.js:52
+msgid "Top"
+msgstr "Felül"
+
+#: settings/generalPage.js:320 settings/panelPage.js:53
+msgid "Bottom"
+msgstr "Alul"
+
+#: settings/generalPage.js:322
+msgid "Indicator Location"
+msgstr "Jelző Helye"
+
+#: settings/generalPage.js:343
+msgid "Running Indicator Color"
+msgstr "Futás Jelző Színe"
+
+#: settings/generalPage.js:362
+msgid "Focused Indicator Color"
+msgstr "Fókuszált Jelző Színe"
+
+#: settings/generalPage.js:369
+msgid "App Icon Badges"
+msgstr "Alkalmazás Ikon Jelvények"
+
+#: settings/generalPage.js:378
+msgid "Notification Badges Count"
+msgstr "Értesítési Jelvények Száma"
+
+#: settings/generalPage.js:380
+msgid "Adds a badge counter to the App Icon based on GNOME shell notifications"
+msgstr ""
+"Hozzáad egy jelvényszámlálót az Alkalmazás ikonjához a GNOME shell "
+"értesítései alapján"
+
+#: settings/generalPage.js:394
+msgid "Always Show Notification Badges"
+msgstr "Mindig Mutasson Értesítési Jelvényeket"
+
+#: settings/generalPage.js:395
+msgid "Bypass \"Do Not Disturb\" mode"
+msgstr "A „Ne zavarjanak” üzemmód megkerülése"
+
+#: settings/generalPage.js:409
+msgid "Unity Badges Count"
+msgstr "Unity Jelvények Száma"
+
+#: settings/generalPage.js:410 settings/generalPage.js:425
+msgid "Requires Unity API"
+msgstr "Unity API Szükséges"
+
+#: settings/generalPage.js:424
+msgid "Unity Progress Bars"
+msgstr "Unity Haladás Sávok"
+
+#: settings/panelPage.js:14 settings/panelPage.js:22
+msgid "Panel"
+msgstr "Panel"
+
+#: settings/panelPage.js:38
+msgid "Panel Intellihide"
+msgstr "Panel Intellihide"
+
+#: settings/panelPage.js:55
+msgid "Panel Location"
+msgstr "Panel Helye"
+
+#: settings/panelPage.js:68
+msgid "Show Panels on All Monitors"
+msgstr "Panelek Megjelenítése az Összes Monitoron"
+
+#: settings/panelPage.js:112
+msgid "Panel Height"
+msgstr "Panel Magassága"
+
+#: settings/panelPage.js:129
+msgid "Show Activities Button"
+msgstr "Tevékenységek Gomb Megjelenítése"
+
+#: settings/panelPage.js:141
+msgid "Off"
+msgstr "Ki"
+
+#: settings/panelPage.js:145
+msgid "Show Weather near Clock"
+msgstr "Időjárás Megjelenítése Óra közelében"
+
+#: settings/panelPage.js:156
+msgid "Customize Panel Clock"
+msgstr "Panelóra Testreszabása"
+
+#: settings/panelPage.js:165
+msgid "Clock Position in Panel"
+msgstr "Óra helyzete a panelen"
+
+#: settings/panelPage.js:189
+msgid "Offset the position within the above selected box"
+msgstr "Eltolja a pozíciót a fent kiválasztott mezőben"
+
+#: settings/panelPage.js:196
+msgid "Format Guide"
+msgstr "Formátum Útmutató"
+
+#: settings/panelPage.js:212
+msgid "Customize Clock Format"
+msgstr "Óra Formátum Testreszabása"
+
+#: settings/panelPage.js:273
+msgid "Clock Font Size"
+msgstr "Óra Betűmérete"
+
+#: settings/panelPage.js:292
+msgid "Intellihide Options"
+msgstr "Intellihide beállítások"
+
+#: settings/panelPage.js:301
+msgid "Reset settings"
+msgstr "Beállítások visszaállítása"
+
+#: settings/panelPage.js:306
+#, javascript-format
+msgid "Reset all %s settings?"
+msgstr "Minden %s beállítás visszaállítása?"
+
+#: settings/panelPage.js:307
+#, javascript-format
+msgid "All %s settings will be reset to the default value."
+msgstr "Minden %s beállítás visszaáll az alapértelmezett értékre."
+
+#: settings/panelPage.js:337
+msgid "Dodge Windows"
+msgstr "Dodge Ablakok"
+
+#: settings/panelPage.js:338
+msgid "Show the panel when it doesn't obstruct app windows."
+msgstr "A panel megjelenítése, ha nem akadályozza az alkalmazásablakokat."
+
+#: settings/panelPage.js:343
+msgid "All Windows"
+msgstr "Minden ablak"
+
+#: settings/panelPage.js:344
+msgid "Only Focused Windows"
+msgstr "Csak a Fókuszált Ablakok"
+
+#: settings/panelPage.js:345
+msgid "Only Maximized Windows"
+msgstr "Csak a Maximalizált Ablakok"
+
+#: settings/panelPage.js:352
+msgid "Dodge Windows Mode"
+msgstr "Dodge Ablakok Mód"
+
+#: settings/panelPage.js:369
+msgid "Require Pressure To Reveal the Panel"
+msgstr "Nyomás Szükséges a Panel Felfedéséhez"
+
+#: settings/panelPage.js:377
+msgid "Pressure Threshold (px)"
+msgstr "Nyomás Küszöbérték (px)"
+
+#: settings/panelPage.js:385
+msgid "Pressure Timeout (ms)"
+msgstr "Nyomás Időkorlát (ms)"
+
+#: settings/panelPage.js:398
+msgid "Reveal Panel with Mouse while in Fullscreen App"
+msgstr "Teljes Képernyős Alkalmazásban lévő Panel Felfedése az Egérrel"
+
+#: settings/panelPage.js:404
+msgid "Only Hide Secondary Panels"
+msgstr "Csak a Másodlagos Panelek Elrejtése"
+
+#: settings/panelPage.js:415
+msgid "Hotkey to Reveal and Hold Panel"
+msgstr "Gyorsbillentyű a Panel Felfedéséhez és Tartásához"
+
+#: settings/panelPage.js:439
+msgid "Persist State Across Restarts"
+msgstr "Állapot Megőrzése az Újraindítások Között"
+
+#: settings/panelPage.js:453
+msgid "Reveal and Hold the Panel on Notification"
+msgstr "Fedje Fel és Tartsa a Panelt az Értesítésnél"
+
+#: settings/panelPage.js:454
+msgid ""
+"Respects GNOME \"Do Not Disturb\" and requires show notification counter "
+"badge option."
+msgstr ""
+"Tiszteletben tartja a GNOME \"Ne zavarjanak\" opciót, és megköveteli az "
+"értesítési számláló jelvény megjelenítése opciót."
+
+#: settings/panelPage.js:466
+msgid "Hide and Reveal Animation Duration (ms)"
+msgstr "Elrejtés és Felfedés Animáció Időtartama (ms)"
+
+#: settings/panelPage.js:474
+msgid "Delay Before Hiding the Panel (ms)"
+msgstr "Késleltetés a Panel Elrejtése Előtt (ms)"
+
+#: settings/panelPage.js:482
+msgid "Delay Before Enabling Intellihide on Start (ms)"
+msgstr "Késleltetés az Intellihide Indításkor Történő Engedélyezése Előtt (ms)"
+
+#: settings/panelPage.js:614
+msgid "Modify Hotkey"
+msgstr "Gyorsbillentyű Módosítása"
+
+#: settings/panelPage.js:650
+msgid "Apply"
+msgstr "Alkalmazás"
+
+#: settings/panelPage.js:662
+msgid "Cancel"
+msgstr "Mégse"
+
+#. TRANSLATORS: %s is replaced with a description of the keyboard shortcut, don't translate/transliterate <b>%s</b>
+#: settings/panelPage.js:682
+msgid "Enter a new hotkey"
+msgstr "Új Gyorsbillentyű Megadása"
+
+#: settings/panelPage.js:707
+msgid "Disabled"
+msgstr "Letiltva"
+
+#: settings/panelPage.js:712
+msgid "Press Esc to cancel or Backspace to disable the keyboard shortcut."
+msgstr ""
+"A visszavonásához nyomja meg az Esc-t, a gyorsbillentyű letiltásához pedig a "
+"Backspace-t."
+
+#: settings/panelPage.js:765
+#, javascript-format
+msgid "Conflict with <b>%s</b> hotkey"
+msgstr "Konfliktus a(z) <b>%s</b> gyorsbillentyűvel"
+
+#. TRANSLATORS: This will display as "ProjectName v21 Released!" as an example.
+#: updateNotifier.js:54
+#, javascript-format
+msgid "%s v%s Released!"
+msgstr "%s v%s Megjelent!"
+
+#: updateNotifier.js:65
+msgid "What's new?"
+msgstr "Mi az újdonság?"
+
+#: updateNotifier.js:66
+msgid "Dismiss"
+msgstr "Elvetés"
+
+#~ msgid "Taskbar Behavior"
+#~ msgstr "Tálca Viselkedése"
+
+#~ msgid "App Icons Taskbar on GitLab"
+#~ msgstr "App Icons Taskbar a GitLab -on"
+
+#~ msgid "App Icons Taskbar Settings"
+#~ msgstr "App Icons Taskbar Beállítások"
+
+#, javascript-format
+#~ msgid "Message from %s"
+#~ msgstr "Üzenet a következőtől: %s"

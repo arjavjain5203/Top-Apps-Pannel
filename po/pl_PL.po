@@ -1,0 +1,457 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the App Icons Taskbar package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: App Icons Taskbar\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-12-01 09:06-0500\n"
+"PO-Revision-Date: 2025-01-08 04:19+0100\n"
+"Last-Translator: Mariusz Jaroszek <m@jaroszek.eu>\n"
+"Language-Team: \n"
+"Language: pl_PL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.5\n"
+
+#: appIcon.js:237
+msgid "Show All Apps"
+msgstr "Wyświetl programy"
+
+#: prefs.js:16
+msgid "Settings"
+msgstr "Ustawienia"
+
+#: prefs.js:24
+msgid "Taskbar Behavior"
+msgstr "Zachowanie Paska Zadań"
+
+#: prefs.js:29 prefs.js:82 prefs.js:267
+msgid "Left"
+msgstr "Lewo"
+
+#: prefs.js:30
+msgid "Center"
+msgstr "Centrum"
+
+#: prefs.js:31 prefs.js:83 prefs.js:268
+msgid "Right"
+msgstr "Prawo"
+
+#: prefs.js:33
+msgid "Position in Panel"
+msgstr "Pozycja w Panelu"
+
+#: prefs.js:56 prefs.js:309
+msgid "Position Offset"
+msgstr "Przesunięcie Pozycji"
+
+#: prefs.js:57 prefs.js:310
+msgid "Offset the position within the above selected box"
+msgstr "Przesuń pozycję w ramach podanego obok zakresu"
+
+#: prefs.js:92
+msgid "Show Apps Button"
+msgstr "Pokaż Przycisk Wszystkich Aplikacji"
+
+#: prefs.js:107
+msgid "Show Favorite Apps"
+msgstr "Pokaż Ulubione Aplikacje"
+
+#: prefs.js:122
+msgid "Show Favorites on All Monitors"
+msgstr "Pokaż Ulubione na Wszystkich Ekranach"
+
+#: prefs.js:132
+msgid "Show Running Apps"
+msgstr "Pokaż Uruchomione Aplikacje"
+
+#: prefs.js:146
+msgid "Isolate Workspaces"
+msgstr "Izoluj Pulpity Robocze"
+
+#: prefs.js:160
+msgid "Isolate Monitors"
+msgstr "Izoluj Ekrany"
+
+#: prefs.js:171
+msgid "Panel"
+msgstr "Panel"
+
+#: prefs.js:176 prefs.js:500
+msgid "Top"
+msgstr "Góra"
+
+#: prefs.js:177 prefs.js:501
+msgid "Bottom"
+msgstr "Dół"
+
+#: prefs.js:179
+msgid "Panel Location"
+msgstr "Położenie Panelu"
+
+#: prefs.js:192
+msgid "Show Panels on All Monitors"
+msgstr "Pokaż Panele na Wszystkich Ekranach"
+
+#: prefs.js:237
+msgid "Panel Height"
+msgstr "Wysokość Panelu"
+
+#: prefs.js:254
+msgid "Show Activities Button"
+msgstr "Pokaż Przycisk Aktywności"
+
+#: prefs.js:266
+msgid "Off"
+msgstr "Wyłącz"
+
+#: prefs.js:270
+msgid "Show Weather near Clock"
+msgstr "Pokaż Pogodę obok Zegara"
+
+#: prefs.js:281
+msgid "Customize Panel Clock"
+msgstr "Dostosuj Zegar Panelu"
+
+#: prefs.js:286
+msgid "Clock Position in Panel"
+msgstr "Położenie Zegara w Panelu"
+
+#: prefs.js:317
+msgid "Format Guide"
+msgstr "Poradnik Formatowania"
+
+#: prefs.js:333
+msgid "Customize Clock Format"
+msgstr "Dostosuj Format Zegara"
+
+#: prefs.js:395
+msgid "Clock Font Size"
+msgstr "Rozmiar Czcionki Zegara"
+
+#: prefs.js:409
+msgid "App Icons"
+msgstr "Ikony Aplikacji"
+
+#: prefs.js:427
+msgid "Icon Size"
+msgstr "Rozmiar Ikon"
+
+# Polish SJP dictionary does not recognize "desaturate" there is only "saturacja" that covers usually both meanings, instead I used "Blaknięcia" which is exact opposive to "Saturation".
+#: prefs.js:447
+msgid "Icon Desaturate Factor"
+msgstr "Współczynnik Blaknięcia Ikon"
+
+#: prefs.js:454
+msgid "Regular"
+msgstr "Regularny"
+
+#: prefs.js:455
+msgid "Symbolic"
+msgstr "Symboliczny"
+
+#: prefs.js:457
+msgid "Icon Style"
+msgstr "Styl Ikon"
+
+#: prefs.js:458
+msgid "Icon themes may not have a symbolic icon for every app"
+msgstr "Niektóre aplikacje mogą nie posiadać symbolicznych ikon"
+
+#: prefs.js:472
+msgid "Dance Urgent App Icons"
+msgstr "Animacja Pilnych Ikon Aplikacji"
+
+#: prefs.js:482 prefs.js:487
+msgid "Indicator"
+msgstr "Wskaźnik"
+
+#: prefs.js:488
+msgid "Multi-Dashes"
+msgstr "Wielokrotne Podkreślniki"
+
+#: prefs.js:490
+msgid "Multi-Window Indicator Style"
+msgstr "Wskaźnik Stylu Wielu Okien"
+
+#: prefs.js:503
+msgid "Indicator Location"
+msgstr "Umieszczenie Wskaźnika"
+
+#: prefs.js:524
+msgid "Running Indicator Color"
+msgstr "Kolor Wskaźnika Uruchomionej Aplikacji"
+
+#: prefs.js:543
+msgid "Focused Indicator Color"
+msgstr "Kolor Wskaźnika Aktualnej Aplikacji"
+
+#: prefs.js:550
+msgid "Taskbar Badges"
+msgstr "Liczniki w Pasku Zadań"
+
+#: prefs.js:559
+msgid "Notification Badges Count"
+msgstr "Liczniki Notyfikacji"
+
+#: prefs.js:561
+msgid "Adds a badge counter to the App Icon based on GNOME shell notifications"
+msgstr "Dodaje licznik do Ikon Aplikacji które bazują na notyfikacjach powłoki GNOME"
+
+#: prefs.js:575
+msgid "Always Show Notification Badges"
+msgstr "Zawsze pokazuj Plakietki Notyfikacji"
+
+#: prefs.js:576
+msgid "Bypass \"Do Not Disturb\" mode"
+msgstr "Omiń tryb \"Nie Przeszkadzać\""
+
+#: prefs.js:590
+msgid "Unity Badges Count"
+msgstr "Licznik Plakietek Unity"
+
+#: prefs.js:591 prefs.js:606
+msgid "Requires Unity API"
+msgstr "Wymaga API Unity"
+
+#: prefs.js:605
+msgid "Unity Progress Bars"
+msgstr "Pasek Postępu Unity"
+
+#: prefs.js:621
+msgid "Actions"
+msgstr "Akcje"
+
+#: prefs.js:628
+msgid "Click Actions"
+msgstr "Akcje dla Kliknięć"
+
+#: prefs.js:633
+msgid "Toggle / Cycle"
+msgstr "Przełącz / Obróć"
+
+#: prefs.js:634
+msgid "Toggle / Cycle + Minimize"
+msgstr "Przełącz / Obróć + Minimalizuj"
+
+#: prefs.js:635
+msgid "Toggle / Preview"
+msgstr "Przełącz / Podgląd"
+
+#: prefs.js:636
+msgid "Cycle"
+msgstr "Obróć"
+
+#: prefs.js:637 prefs.js:773
+msgid "Raise"
+msgstr "Podnieś"
+
+#: prefs.js:638
+msgid "Minimize"
+msgstr "Minimalizuj"
+
+#: prefs.js:639
+msgid "Quit"
+msgstr "Wyjdź"
+
+#: prefs.js:640
+msgid "Launch New Instance"
+msgstr "Uruchom Nową Instancję"
+
+#: prefs.js:641
+msgid "Raise Here"
+msgstr "Podnieś Tutaj"
+
+#: prefs.js:648
+msgid "Left Click"
+msgstr "Lewy przycisk"
+
+#: prefs.js:663
+msgid "Middle Click"
+msgstr "Środkowy przycisk"
+
+#: prefs.js:678
+msgid "Shift + Middle Click"
+msgstr "Shift + Środkowy przycisk"
+
+#: prefs.js:688
+msgid "Scroll Actions"
+msgstr "Akcje dla Przewijania"
+
+#: prefs.js:693
+msgid "Cycle Windows"
+msgstr "Obróć Oknami"
+
+#: prefs.js:694
+msgid "No Action"
+msgstr "Nie rób nic"
+
+#: prefs.js:696
+msgid "Scroll Action"
+msgstr "Akcja Przewijania"
+
+#: prefs.js:706
+msgid "Hover Actions"
+msgstr "Akcja Najechania"
+
+#: prefs.js:714
+msgid "Tool-Tips"
+msgstr "Podpowiedzi"
+
+#: prefs.js:736 prefs.js:768
+msgid "Window Previews"
+msgstr "Podglądy Okien"
+
+#: prefs.js:755
+msgid "Window Preview Options"
+msgstr "Opcje Podglądów Okien"
+
+#: prefs.js:774
+msgid "Raise/Minimize"
+msgstr "Podnieś/Minimalizuj"
+
+#: prefs.js:776
+msgid "Click Action"
+msgstr "Akcja Kliknięcia"
+
+#: prefs.js:799
+msgid "Show Window Previews Delay"
+msgstr "Opóźnienie wyświetlania Podglądu Okna"
+
+#: prefs.js:800
+msgid "Time in ms to show the window preview"
+msgstr "Czas w milisekundach do wyświetlenia okna podglądu"
+
+#: prefs.js:820
+msgid "Hide Window Previews Delay"
+msgstr "Opóźnienie ukrywania Podglądu Okien"
+
+#: prefs.js:821
+msgid "Time in ms to hide the window preview"
+msgstr "Czas w milisekundach do schowania okna podglądu"
+
+#: prefs.js:828
+msgid "Window Preview Style"
+msgstr "Styl Podglądu Okna"
+
+#: prefs.js:846
+msgid "Scaling Factor"
+msgstr "Czynnik Skalowania"
+
+#: prefs.js:866
+msgid "Title Font Size"
+msgstr "Rozmiar czcionki tytułów"
+
+#: prefs.js:886
+msgid "App Icon Size"
+msgstr "Rozmiar Ikon Aplikacji"
+
+#: prefs.js:906
+msgid "Button Size"
+msgstr "Rozmiar Przycisku"
+
+#: prefs.js:907 prefs.js:928 prefs.js:949
+msgid "Close/Minimize Buttons"
+msgstr "Przyciski Zamknij/Minimalizuj"
+
+#: prefs.js:927
+msgid "Button Icon Size"
+msgstr "Rozmiar Przycisku Ikony"
+
+#: prefs.js:948
+msgid "Button Spacing"
+msgstr "Odstęp pomiędzy przyciskami"
+
+#: prefs.js:960
+msgid "Show Minimize Button"
+msgstr "Pokaż przycisk Minimalizacji"
+
+#: prefs.js:970 prefs.js:978
+msgid "Window Peeking"
+msgstr "Wyświetlenie Okna"
+
+#: prefs.js:979
+msgid "Hovering a window preview will focus desired window"
+msgstr "Najechanie na podgląd okna wyświetli wybrane okno"
+
+#: prefs.js:1003
+msgid "Window Peeking Delay"
+msgstr "Opóźnienie Wyświetlenia Okna"
+
+#: prefs.js:1004
+msgid "Time in ms to trigger window peek"
+msgstr "Czas w milisekundach do wyświetlenia okna"
+
+#: prefs.js:1024
+msgid "Window Peeking Opacity"
+msgstr "Poziom Przezroczystości Wyświetlenia Okna"
+
+#: prefs.js:1025
+msgid "Opacity of non-focused windows during a window peek"
+msgstr "Poziom nieprzezroczystości pozostałych okien podczas wyświetlania podstawowego okna"
+
+#: prefs.js:1037
+msgid "About"
+msgstr "O programie"
+
+#: prefs.js:1043
+msgid "Show running apps and favorites on the main panel"
+msgstr "Wyświetl uruchomione aplikacje oraz ulubione apki na górnym panelu"
+
+# Ikony Aplikacji Paska Zadań - does not look that good when translated
+#: prefs.js:1062
+msgid "App Icons Taskbar"
+msgstr "App Icons Taskbar"
+
+#: prefs.js:1085
+msgid "App Icons Taskbar Version"
+msgstr "Wersja App Icons Taskbar"
+
+#: prefs.js:1095
+msgid "Git Commit"
+msgstr "Git Commit"
+
+#: prefs.js:1105
+msgid "GNOME Version"
+msgstr "Wersja GNOME"
+
+#: prefs.js:1114
+msgid "OS Name"
+msgstr "Nazwa Systemu"
+
+#: prefs.js:1127
+msgid "Windowing System"
+msgstr "System Okien"
+
+#: prefs.js:1135
+msgid "App Icons Taskbar GitLab"
+msgstr "App Icons Taskbar GitLab"
+
+#: prefs.js:1138
+msgid "Donate via PayPal"
+msgstr "Wspieraj poprzez PayPal"
+
+#: prefs.js:1147
+msgid "App Icons Taskbar Settings"
+msgstr "Ustawienia App Icons Taskbar"
+
+#: prefs.js:1150
+msgid "Load"
+msgstr "Załaduj"
+
+#: prefs.js:1155
+msgid "Load Settings"
+msgstr "Załaduj Ustawienia"
+
+#: prefs.js:1183
+msgid "Save"
+msgstr "Zapisz"
+
+#: prefs.js:1188
+msgid "Save Settings"
+msgstr "Zapisz Ustawienia"

@@ -1,0 +1,153 @@
+/*
+* Code in this file borrowed from Dash to Dock
+* https://github.com/micheleg/dash-to-dock/blob/master/notificationsMonitor.js
+* Modified slightly to suit this extensions needs.
+*/
+
+import {EventEmitter} from 'resource:///org/gnome/shell/misc/signals.js';
+
+import Gio from 'gi://Gio';
+import * as Main from 'resource:///org/gnome/shell/ui/main.js';
+import * as Utils from './utils.js';
+
+export const NotificationsMonitor = class TopAppsProNotificationsMonitor extends EventEmitter {
+    constructor(extensionSettings) {
+        super();
+        this._isDestroyed = false;
+        this._settings = new Gio.Settings({
+            schema_id: 'org.gnome.desktop.notifications',
+        });
+
+        this._extensionSettings = extensionSettings;
+
+        this._appNotifications = Object.create(null);
+        this._signalsHandler = new Map();
+
+        const alwaysShow = this._extensionSettings.get_boolean('always-show-notifications');
+        const showBanners = this._settings.get_boolean('show-banners');
+
+        this._isEnabled = showBanners || alwaysShow;
+
+        this._showBannersId = this._settings.connect('changed::show-banners', () => {
+            this._setEnabled();
+        });
+        this._alwaysShowId = this._extensionSettings.connect('changed::always-show-notifications', () => {
+            this._setEnabled();
+        });
+
+        this._updateState();
+    }
+
+    _setEnabled() {
+        const alwaysShow = this._extensionSettings.get_boolean('always-show-notifications');
+        const showBanners = this._settings.get_boolean('show-banners');
+
+        const isEnabled = showBanners || alwaysShow;
+        if (isEnabled !== this._isEnabled) {
+            this._isEnabled = isEnabled;
+            this.emit('state-changed');
+
+            this._updateState();
+        }
+    }
+
+    _disconnectMessageTray() {
+        if (this._sourceAddedId) {
+            this._sourceAddedId = Utils.safeDisconnect(Main.messageTray, this._sourceAddedId);
+        }
+
+        if (this._sourceRemovedId) {
+            this._sourceRemovedId = Utils.safeDisconnect(Main.messageTray, this._sourceRemovedId);
+        }
+    }
+
+    destroy() {
+        if (this._isDestroyed)
+            return;
+
+        this._isDestroyed = true;
+        this.emit('destroy');
+
+        this._disconnectMessageTray();
+
+        this._signalsHandler.forEach((object, id) => {
+            Utils.safeDisconnect(object, id);
+        });
+
+        this._signalsHandler = null;
+
+        if (this._showBannersId) {
+            this._showBannersId = Utils.safeDisconnect(this._settings, this._showBannersId);
+        }
+
+        if (this._alwaysShowId) {
+            this._alwaysShowId = Utils.safeDisconnect(this._extensionSettings, this._alwaysShowId);
+        }
+
+        this._appNotifications = null;
+        this._settings = null;
+    }
+
+    get enabled() {
+        return this._isEnabled;
+    }
+
+    getAppNotificationsCount(appId) {
+        return this._appNotifications[appId] ?? 0;
+    }
+
+    _updateState() {
+        if (this.enabled) {
+            if (!this._sourceAddedId) {
+                this._sourceAddedId = Main.messageTray.connect('source-added',
+                    () => this._checkNotifications());
+            }
+            if (!this._sourceRemovedId) {
+                this._sourceRemovedId = Main.messageTray.connect('source-removed',
+                    () => this._checkNotifications());
+            }
+        } else {
+            this._disconnectMessageTray();
+        }
+
+        this._checkNotifications();
+    }
+
+    _checkNotifications() {
+        if (this._isDestroyed)
+            return;
+
+        this._appNotifications = Object.create(null);
+        this._signalsHandler.forEach((object, id) => {
+            Utils.safeDisconnect(object, id);
+        });
+        this._signalsHandler = new Map();
+
+        if (this.enabled) {
+            Main.messageTray.getSources().forEach(source => {
+                this._signalsHandler.set(source.connect('notification-added',
+                    () => this._checkNotifications()), source);
+
+                source.notifications.forEach(notification => {
+                    const app = notification.source?.app ?? notification.source?._app;
+                    const appId = app?.id ?? app?._appId;
+
+                    if (appId) {
+                        if (notification.resident) {
+                            if (notification.acknowledged)
+                                return;
+                            this._signalsHandler.set(notification.connect('notify::acknowledged',
+                                () => this._checkNotifications()), notification);
+                        }
+                        this._signalsHandler.set(notification.connect('destroy',
+                            () => this._checkNotifications()), notification);
+                        this._appNotifications[appId] =
+                            (this._appNotifications[appId] ?? 0) + 1;
+                    }
+                });
+            });
+        }
+
+        this.emit('changed');
+    }
+};

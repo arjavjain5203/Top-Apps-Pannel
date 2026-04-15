@@ -1,0 +1,6 @@
+.~
+*~
+*.zip
+gschemas.compiled
+*.mo
+node_modules/
